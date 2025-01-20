@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.nato-logo {
+    margin-bottom: 20px;
+}
+
+.insta-celular {
+    width: 520px;
+}
+
+.caixa-form {
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    padding: 50px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;    
+}
+
+input {
+    height: 36px;
+    margin-top: 5px;
+    border: 1px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+    color: #262626;
+}
+
+button{
+    background-color: #0095f6;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
