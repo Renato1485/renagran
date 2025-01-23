@@ -5,10 +5,10 @@
 }
 
 body {
-    background-color: #fafafa;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+    background-color: #fafafa; /*cor do fundo*/
+    width: 100vw; /*Largura*/
+    height: 100vh; /*Altura*/
+    display: flex; 
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
@@ -28,12 +28,13 @@ body {
     padding: 50px 40px 20px 40px;
     display: flex;
     flex-direction: column;    
+    background: #ffffff;
 }
 
 input {
     height: 36px;
     margin-top: 5px;
-    border: 1px;
+    border: 1px solid #dbdbdb;
     border-radius: 5px;
     outline: none;
     padding-left: 5px;
@@ -49,3 +50,22 @@ button{
     margin-top: 20px;
     cursor: pointer;
 }
+
+.login-facebook{
+    color: #385185;
+    font-size: 14px; /*Tamanho da fonte*/
+    font-weight: bold; /*Espessura da fonte / BOLD = Negrito*/
+    text-align: center;/*Alinamento do texto*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.esqueceu-senha{
+    color: #385185;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
