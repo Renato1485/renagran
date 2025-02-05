@@ -20,11 +20,14 @@ body {
 .nato {
     position: relative;
     top: -18px;
+    text-align: center;
+    height: 100px;
+    transform: scale(0.7);
 }
 
 .caixa-imagem {
     position: relative;
-    
+
 }
 
 .insta-celular {
@@ -38,21 +41,34 @@ body {
     top: 26px;
 }
 
-.face-logo{
+.face-logo {
     height: 25px;
-    position: absolute  ;
+    position: absolute;
     left: 72px;
     margin-top: -42px;
+}
+
+.imagem-google {
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 15px;
+
+}
+
+.imagem-ios {
+    height: 40px;
+    margin-left: 143px;
+    transform: translateY(-44px);
 }
 
 .caixa-form {
     width: 350px;
     height: 450px;
-    position:relative;
+    position: relative;
     top: -90px;
     border: 1px solid #dbdbdb;
     padding: 50px 40px 20px 40px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     background: #ffffff;
 }
@@ -72,7 +88,7 @@ button {
     color: #ffffff;
     border-radius: 5px;
     border: none;
-    height: 30px;   
+    height: 30px;
     margin-top: 20px;
     cursor: pointer;
 }
@@ -82,7 +98,8 @@ button {
     position: relative;
     font-size: 12px;
 }
-.ou:after { 
+
+.ou:after {
     content: "";
     width: 100%;
     height: 1px;
@@ -90,7 +107,7 @@ button {
     margin-top: 15px;
     display: block;
 }
-    
+
 .ou span {
     position: absolute;
     top: 50%;
@@ -119,4 +136,37 @@ button {
     text-align: center;
     font-size: 12px;
     cursor: pointer;
+}
+
+.caixa-cadastro {
+    width: 350px;
+    height: 25px;
+    position: relative;
+    top: 180px;
+    border: 1px solid #dbdbdb;
+    padding: 50px 40px 20px 40px;
+    margin-left: -350px;
+    background-color: #ffffff;
+
+}
+
+.tipo-cadastro {
+    float: left;
+    color: #385185;
+    text-align: auto;
+    font-size: 14px;
+}
+.Cadastro {
+    color: #385185;
+    font-size: 14px;
+    text-align: auto;
+    cursor: pointer;
+}
+
+.Obtenha-app {
+    color: #000;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align:center;
+    margin-top: 20px;
 }
